@@ -18,9 +18,8 @@ import {
 import React, { useState } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { sendEmailOTP, verifySecret } from "@/lib/actions/user.actions";
+import { verifySecret, sendEmailOTP } from "@/lib/actions/user.actions";
 import { useRouter } from "next/navigation";
-
 
 const OtpModal = ({
   accountId,
@@ -38,23 +37,19 @@ const OtpModal = ({
     e.preventDefault();
     setIsLoading(true);
 
+    console.log({ accountId, password });
+
     try {
-      const sessionId= await verifySecret({ accountId, password } );
-      
+      const sessionId = await verifySecret({ accountId, password });
+
+      console.log({ sessionId });
 
       if (sessionId) router.push("/");
-        
-      
-      
     } catch (error) {
       console.log("Failed to verify OTP", error);
     }
 
-    finally {
-      setIsLoading(false);
-    }
-
-   
+    setIsLoading(false);
   };
 
   const handleResendOtp = async () => {
