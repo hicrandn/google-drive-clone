@@ -18,6 +18,7 @@ import {
 import { Input } from "./ui/input"
 import { init } from "next/dist/compiled/webpack/webpack"
 import { createAccount } from "../lib/actions/user.actions"
+import OTPmodal from "./OTPmodal"
 
 const formSchema = z.object({
     username: z.string().min(2, {
@@ -171,6 +172,10 @@ const AuthForm = ({ type}: {type:FormType}) => {
       </form>
     </Form>
     {/* OTP VERİFİCATİON */}
+    {accountId && (
+    < OTPmodal email = {form.getValues('email')} 
+    accountId = {accountId} />
+  )}
     </>
   )
 
