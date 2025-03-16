@@ -82,6 +82,6 @@ export const sortTypes = [
 ];
 
 export const avatarPlaceholderUrl =
-  "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg";
+  "https://www.freepik.com/free-psd/3d-rendering-hair-style-avatar-design_375240154.htm#fromView=search&page=1&position=49&uuid=76a430ac-f722-4273-b857-71cc35760ce6&query=avatar";
 
-export const MAX_FILE_SIZE = 50 * 1024 * 1024; // 50MB
+export const MAX_FILE_SIZE = 50 * 1024 * 1024; 
