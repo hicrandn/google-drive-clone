@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Google Drive Clone
 
-## Getting Started
+A modern, feature-rich clone of Google Drive, built with cutting-edge technologies for file management and sharing.
 
-First, run the development server:
+## ⚙️ Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React 19** – A powerful JavaScript library for building user interfaces.
+- **Next.js 15** – A React framework that enables server-side rendering and static site generation.
+- **Appwrite** – A self-hosted backend server for building secure and scalable applications.
+- **TailwindCSS** – A utility-first CSS framework for rapid UI development.
+- **ShadCN** – A set of tools for styling and managing UI components.
+- **TypeScript** – A typed superset of JavaScript that helps catch errors early and improves code quality.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔋 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+👉 **User Authentication with Appwrite**  
+Seamlessly manage user registration, login, and logout with Appwrite's powerful authentication system.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+👉 **File Uploading**  
+Upload a variety of file types including documents, images, videos, and audio with ease, keeping all your important data safe and accessible.
 
-## Learn More
+👉 **File Management**  
+Users can browse, view, rename, or delete their files directly from Appwrite storage, providing a full management suite for uploaded content.
 
-To learn more about Next.js, take a look at the following resources:
+👉 **File Downloads**  
+Users can easily download their files, providing quick access to essential documents when needed.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👉 **File Sharing**  
+Effortlessly share uploaded files with others, promoting collaboration and easy access to shared content.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+👉 **Dashboard Insights**  
+A sleek dashboard showcasing key metrics like total and consumed storage, recent uploads, and file summaries grouped by type, giving users a comprehensive overview of their data.
 
-## Deploy on Vercel
+👉 **Global Search Functionality**  
+Quickly search and find files and shared content across the platform with a robust global search feature.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👉 **Efficient Sorting Options**  
+Sort files by date, name, or size to keep everything well-organized and easy to access.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👉 **Responsive, Modern Design**  
+A minimalist, clean, and user-friendly interface that adapts beautifully across devices, ensuring a seamless experience for all users.
+
+And much more, integrating the latest features of **React 19**, **Next.js 15**, and **Appwrite**, along with a focus on code architecture and reusability.
+
+
